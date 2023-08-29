@@ -9,20 +9,30 @@
     />
     <title>Epicode Blog</title>
     <link rel="stylesheet" href="assets/img/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap");
+    </style>
   </head>
   <body>
     <div class="container">
-      <header>
+      <header id="top">
         <div id="logo">
           <img src="assets/img/logo.svg" alt="logo" />
         </div>
         <h2>Epicode - Il blog dei Developers</h2>
         <nav id="navebar">
-          <ul>
-            <li>Home</li>
-            <li>Articoli</li>
-            <li>Lavora con noi</li>
-          </ul>
+          <menu id="lista">
+            <img src="assets/img/logo.svg" alt="logo" />
+            <p>Home</p>
+            <p>Articoli</p>
+            <p>Lavora con noi</p>
+          </menu>
         </nav>
       </header>
       <main>
@@ -152,18 +162,17 @@
           </section>
         </div>
       </main>
-      <footer>
-        <div>
-          Blog Epicode &copy;<br />
-          <hr />
-          <p>
-            Testata online di Mario Rossi, registrata con prot. n.213/2018 - Via
-            Luigi Einaudi 2 - Milano. P.IVA 00112233 <br /><a href="#"
-              >info@epicode.school</a
-            >
-          </p>
-        </div>
-      </footer>
     </div>
+    <footer>
+      <div>
+        <h4>Blog Epicode &copy;</h4>
+
+        <p>
+          Testata online di Mario Rossi, registrata con prot. n.213/2018 - Via
+          Luigi Einaudi 2 - Milano. P.IVA 00112233
+          <a href="#">info@epicode.school</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
