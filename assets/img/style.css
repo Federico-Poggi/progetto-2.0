@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vmax;
+    margin: 0;
+    height: auto !important;
+    padding: 0;
+    
+    
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{
+    height: 100px;
+}
+
+
+#top{
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding: 0!important;
+    width: 100%;
+}
+
+#top img{
+    height: 50px;
+}
+
+#top h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+ 
 hr{
     opacity: 0%;
 }
@@ -5,6 +47,27 @@ th, td{
     text-align: center; 
   /* per allineare testo nelle colonne si usa text-align */
 }
+
+menu img{
+    display: block;
+}
+
+#navebar{
+    margin: 0;
+    padding-top: 20px;
+    align-items: center;
+    }
+
+
+#lista{
+    font-family: 'Lilita One';
+    color: #fff!important;
+    font-size: 20px!important;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
 th{
     padding-left: 0.5%;
 }
@@ -34,4 +97,15 @@ video{
 #more{
     display: flex;
     justify-content: space-evenly;
+}
+
+footer h4{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
