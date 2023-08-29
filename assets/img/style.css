@@ -3,6 +3,12 @@
 
 body{
     margin: 0;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    width: 100%;
+}
+
+main{
+    color: white;
 }
 
 .container{
@@ -65,7 +71,7 @@ menu img{
     font-size: 20px!important;
     display: flex;
     justify-content: space-evenly;
-    
+    margin: 0%;
 }
 
 th{
@@ -108,4 +114,18 @@ footer{
     display: flex;
     justify-content: center;
     width: 100vw;
+    color: white;
 }
+
+#person{
+    display: flex;
+    width: 100%;
+}
+
+
+
+main h1{
+    text-align: center;
+}
+
+
